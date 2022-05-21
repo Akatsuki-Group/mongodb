@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://fox:fox@192.168.65.174:27017/test?authSource=admin
+
+
+logging:
+  level:
+    org.springframework.data.mongodb: debug
